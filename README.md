@@ -7,7 +7,7 @@
 Description
 -----------
 ZeroMQ, zero-em-queue:
- Ø  Connect your code in any language, on any platform.
- Ø  Carries messages across inproc, IPC, TCP, TIPC, multicast.
- Ø  Smart patterns like pub-sub, push-pull, and router-dealer.
- Ø  High-speed asynchronous I/O engines, in a tiny library.
+ * Connect your code in any language, on any platform.
+ * Carries messages across inproc, IPC, TCP, TIPC, multicast.
+ * Smart patterns like pub-sub, push-pull, and router-dealer.
+ * High-speed asynchronous I/O engines, in a tiny library.
