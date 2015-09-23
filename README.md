@@ -6,7 +6,7 @@
 
 Description
 -----------
-ZeroMQ \\zero-em-queue\\, \\ØMQ\\:
+ZeroMQ, zero-em-queue:
  Ø  Connect your code in any language, on any platform.
  Ø  Carries messages across inproc, IPC, TCP, TIPC, multicast.
  Ø  Smart patterns like pub-sub, push-pull, and router-dealer.
