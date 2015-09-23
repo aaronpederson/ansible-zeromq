@@ -11,3 +11,25 @@ ZeroMQ, zero-em-queue:
  * Carries messages across inproc, IPC, TCP, TIPC, multicast.
  * Smart patterns like pub-sub, push-pull, and router-dealer.
  * High-speed asynchronous I/O engines, in a tiny library.
+
+Tunables
+--------
+* None
+
+Dependencies
+------------
+* [telusdigital.apt-repository](https://github.com/telusdigital/ansible-apt-repository/)
+
+Example Playbook
+----------------
+    - hosts: servers
+      roles:
+         - role: telusdigital.zeromq
+
+License
+-------
+[MIT](https://tldrlegal.com/license/mit-license)
+
+Contributors
+------------
+* [Chris Olstrom](https://colstrom.github.io/) | [e-mail](mailto:chris@olstrom.com) | [Twitter](https://twitter.com/ChrisOlstrom)
