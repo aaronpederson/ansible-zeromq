@@ -28,3 +28,6 @@ script:
 
   # check idempotence
   - "ansible-playbook -i tests/inventory tests/$PLAYBOOK --connection=local --sudo"
+
+  # confirm zeromq installation
+  - "sudo service zeromq status"
