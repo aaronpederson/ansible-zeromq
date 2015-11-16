@@ -28,3 +28,6 @@ script:
 
   # check idempotence
   - "ansible-playbook -i tests/inventory tests/$PLAYBOOK --connection=local --sudo"
+
+  # check library
+  - "sudo find / -name '*libzmq*' -print"
